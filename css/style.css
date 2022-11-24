@@ -21,6 +21,51 @@ body{
     object-fit: contain;
     height: 250px;
 }
+.dumbell img{
+    object-fit: contain;
+    width: 80px
+}
+.dumbell{
+    position: absolute;
+    top: 17.5%;
+}
+.robo{
+    position: absolute;
+    top: 11%;
+    left: 45%;
+}
+.robo img{
+    object-fit: contain;
+    width: 190px;
+}
+.selfg{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+
+}
+.selfg img{
+    object-fit: contain;
+    width: 190px;
+}
+.meditate{
+    position: absolute;
+    top: 24.5%;
+    left: 10%;
+}
+.meditate img{
+    object-fit: contain;
+    width: 190px;
+}
+.fantasy{
+    position: absolute;
+    top: 29.5%;
+    left: 37%;
+}
+.fantasy img{
+    object-fit: contain;
+    width: 190px;
+}
 .main-container{
     height: 100vh;
     width: 100vw;
