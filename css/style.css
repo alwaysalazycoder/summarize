@@ -11,6 +11,7 @@
 
 body {
     position: relative;
+    background-color: rgba(253, 232, 235, 0.508);
 
 }
 
@@ -91,9 +92,9 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    /* animation-fill-mode: forwards; */
 }
 
 .logo {
@@ -128,10 +129,14 @@ nav {
     /* background-color: red; */
     justify-content: center;
     align-items: center;
+    background-color: #f5f0e7;
 }
 
 .trademark {
     font-size: 24px;
+}
+nav{
+    border-radius: 0 0 30px 30px;
 }
 
 nav .navbar ul {
@@ -145,7 +150,7 @@ nav .navbar ul {
 
 .active,
 li:hover {
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.745);
     color: white;
 }
 
@@ -154,7 +159,7 @@ li:hover {
 .genres-container {
     margin-top: 30px;
     display: flex;
-    height: 200vh;
+    min-height: 70vh;
     width: 100vw;
     flex-direction: column;
     position: relative;
@@ -162,9 +167,10 @@ li:hover {
 }
 
 .second {
-    animation: zoomin ease 3s;
+    animation: zoomin ease-out 1.8s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: backwards;
+    max-width: 100vw;
 
 }
 
@@ -200,26 +206,52 @@ li:hover {
     justify-content: center;
     width: 70vw;
     height: 8vh;
-    background-color: aquamarine;
+    background-color: #8ad4e783;
+    /* background-color: #f58d67; */
     border-radius: 25px 0px 0px 25px;
 }
+.list-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-navbar ul{
+    border-radius: 30px 30px 0 0;
+}
+.bottom-navbar ul {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #f5f0e7;
+    height: 116px
+    /* margin-top: 13px; */
+}
+
 
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
-
+  
     100% {
-        opacity: 1;
+        opacity: 3;
     }
 }
 
 @keyframes zoomin {
     0% {
-        transform: scale(1.5, 1.5);
+        transform: scale(1.6, 1.6);
     }
+
 
     100% {
         transform: scale(1, 1);
     }
+}
+
+fant {
+    background-color: #8ad4e783;
+
 }
