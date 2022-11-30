@@ -135,7 +135,8 @@ nav {
 .trademark {
     font-size: 24px;
 }
-nav{
+
+nav {
     border-radius: 0 0 30px 30px;
 }
 
@@ -210,14 +211,17 @@ li:hover {
     /* background-color: #f58d67; */
     border-radius: 25px 0px 0px 25px;
 }
-.list-cont{
+
+.list-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.bottom-navbar ul{
+
+.bottom-navbar ul {
     border-radius: 30px 30px 0 0;
 }
+
 .bottom-navbar ul {
     display: flex;
     width: 100vw;
@@ -226,7 +230,7 @@ li:hover {
     box-sizing: border-box;
     background-color: #f5f0e7;
     height: 116px
-    /* margin-top: 13px; */
+        /* margin-top: 13px; */
 }
 
 
@@ -234,7 +238,7 @@ li:hover {
     0% {
         opacity: 0;
     }
-  
+
     100% {
         opacity: 3;
     }
@@ -253,5 +257,62 @@ li:hover {
 
 fant {
     background-color: #8ad4e783;
+}
 
+
+/* love page */
+.books-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.book {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    border-radius: 40px;
+    height: 20vh;
+    background-color: pink;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.author-div {
+    display: flex;
+    background-color: lightcoral;
+    max-width: 40vw;
+    padding: 6px 14px;
+    margin: 0 36px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.short-details {
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+.genre-heading {
+    font-size: 32px;
+    padding: 10px 50px;
+
+}
+
+.story {
+    display: flex;
+    min-height: 60vh;
+    width: 100vw;
+    background-color: pink;
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+}
+.main-story{
+    margin: 40px 20px;
+    line-height: 30px;
 }
